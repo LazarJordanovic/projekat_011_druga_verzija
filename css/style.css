@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* body {
+    background-color: rgba(226, 219, 205, 0.199);
+} */
+.navbar {
+    background-color: rgb(138, 57, 57);
+    color: white;
+    font-size: large;
+    margin-bottom: 0px;
+    position: sticky;
+    box-shadow: 0px 7px rgba(128, 128, 128, 0.068);
+}
+.navbar ul li a:hover {
+    border-bottom: 3px solid black;
+    color: coral;
+}
+
+
+.slider1 {
+    width: 90%;
+    margin: 50px auto;
+    border: 5px solid rgba(80, 69, 69, 0.473);
+}
+.slide .carousel-item img{
+    height: 600px;
+    width: 100px;
+}
+.kola {
+    width: 100%;
+    height: 500px;
+}
+.heading {
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    /* background-color: rgba(7, 7, 7, 0.2); */
+}
+.heading h1 {
+    font-size: 70px;
+    text-align:end;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: rgba(17, 16, 16, 0.514);
+}
+.heading p{
+    font-size: 30px;
+    text-align:end;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: rgba(17, 16, 16, 0.507);
+}
+
+
+@media only screen and (max-width: 600px){
+    .heading h1{
+        font-size: 30px;
+    }
+    .heading p{
+        font-size: 15px;
+        
+    }
+    /* footer {
+        position: relative;
+        width: 100%;
+        height: 0px;
+        top: 600px;
+    } */
+    .slider1 {
+        width: 100%;
+        
+    }
+}

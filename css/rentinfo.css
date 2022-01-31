@@ -1,0 +1,156 @@
+.rentinfo {
+    width: 85%;
+    margin: auto;
+    /* border: 0.5px solid gray; */
+}
+.slinfo {
+    width: 100%;
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.slider {
+    width: 60%;
+    float: left;
+    
+}
+.slider img{
+    width: 97%;
+    height: 400px;
+    margin-left: 30px;
+}
+.inforent {
+    
+    width: 30%;
+    float: left;
+    margin-top: -400px;
+    
+}
+.inforent h4 {
+    border-bottom: 3px solid gray;
+}
+.inforent ul li{
+    border-bottom: 2px dotted gray;
+    font-weight: bold;
+    font-size: large;
+}
+.dodoprema {
+    width: 80%;
+    margin: auto;
+}
+.dodoprema h3{
+    margin-top: 20px;
+    border: 2px solid gray;
+    color: gray;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.dodoprema form{
+    width: 100%;
+    height: 200px;
+}
+.dodoprema form table {
+    width: 100%;
+    
+    font-weight: 700;
+    height: 200px;
+}
+.dodoprema label {
+    font-size: 20px;
+}
+
+.dodoprema input[type="text"] {
+    border: 1px solid rgb(10, 10, 10);
+    width: 98%;
+    height: 50px;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.185);
+}
+.dodoprema input[type="date"]{
+    border: 1px solid rgb(10, 10, 10);
+    width: 96%;
+    height: 50px;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.185);
+}
+.dodoprema input[type="time"]{
+    border: 1px solid rgb(10, 10, 10);
+    width: 96%;
+    height: 50px;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.185);
+}
+.dodoprema input[type="email"]{
+    border: 1px solid rgb(10, 10, 10);
+    width: 98%;
+    height: 50px;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.185);
+}
+
+.dodoprema textarea {
+    width: 100%;
+    height: 250px;
+    background-color: rgba(128, 128, 128, 0.185);
+    border: 1px solid rgb(10, 10, 10);
+    
+}
+.dodoprema input[type="reset"]{
+    width: 70%;
+    float: left;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.856);
+    color: white;
+}
+.dodoprema input[type="submit"]{
+    width: 80%;
+    float: right;
+    height: 40px;
+    border-radius: 0%;
+    background-color: blue;
+    color: white;
+}
+.zakazani {
+    width: 60%;
+    margin: 100px auto;
+    border: 3px solid gray;
+    padding: 30px;
+
+}
+.zakazani h2 {
+    border-bottom: 2px solid gray;
+    color: indigo;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px){
+    .rentinfo {
+        width: 90%;
+        border: none;
+    }
+    .slinfo {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .sliderrent {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .inforent {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .dodoprema {
+        width: 95%;
+        margin: 30px auto;
+    }
+    .dodoprema h3 {
+        border: none;
+        border-bottom: 2px solid gray;
+    }
+    .dodoprema input[type="submit"] {
+        width: 100%;
+    }
+}

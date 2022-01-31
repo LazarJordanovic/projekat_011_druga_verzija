@@ -1,0 +1,96 @@
+.auto img {
+    width: 100%;
+    height: 250px;
+}
+
+.row {
+    width: 100%;
+    margin:  auto;
+    margin-top: 30px;
+    padding: 20px;
+    
+}
+/* .pretraga {
+    width: 50%;
+    margin: 0px auto;
+} */
+.auto {
+    width: 32%;
+    height: 480px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border: 2px solid rgba(17, 16, 16, 0.514);
+    
+}
+.auto:hover {
+    cursor: pointer;
+    box-shadow: 3px 5px 8px gray;
+
+}
+.naslov {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    /* background-color: tomato; */
+}
+.slike {
+    width: 100%;
+    height: 250px;
+    margin:25px 0px;
+}
+img {
+    width: 300px;
+    height: 200px;
+}
+.cena {
+    width: 100%;
+    height: 50px;
+    /* background-color: tomato; */
+}
+.cena button {
+    margin-left: 25%;
+    margin-top: 7px;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(182, 37, 37, 0.685);
+    /* border-radius: 20px; */
+    font-weight: bold;
+}
+.cena button:hover{
+    cursor: pointer;
+    font-size: large;
+
+}
+.cenapr {
+    width: 90%;
+    margin: 0px auto;
+    
+}
+.cenapr label{
+    font-size: 15px;
+    font-weight: bold;
+    color:gray;
+    margin-top: -20px;
+}
+.cenapr input[type="text"]{
+    height: 40px;
+    width:80%;
+    border: 0.5px solid gray;
+    background-color: white;
+    /* margin-left: 30px; */
+}
+.cenapr button{
+        margin-top: 45px;
+        height: 40px;
+        margin-left: 30px;
+}
+@media only screen and (max-width: 600px){
+    .row {
+        width: 100%;
+    }
+    .auto {
+        width: 45%;
+    }
+}

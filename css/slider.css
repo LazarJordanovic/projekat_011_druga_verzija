@@ -1,0 +1,71 @@
+.slider {
+    position: relative;
+    display: block;
+    box-shadow: 2px 3px 5px 6px solid gray;
+    width:510px;
+    height: 500px;
+    border: none;
+    float: right;
+    top: 10px;
+    
+    right: 50px;
+}
+.slider .left img{ 
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: tomato;
+    bottom: 10%;
+    right: 480px;
+    cursor: pointer;
+
+}
+.slider .left img:hover {
+    background: tomato;
+    transition: all 0.5s ease-in;
+    box-shadow: 0px 0px 10px black;
+    
+}
+.slider .right img:hover {
+    background: tomato;
+    transition: all 0.5s ease-in;
+    box-shadow: 0px 0px 10px black;
+}
+.slider .right img {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: tomato;
+    bottom: 10%;
+    right: -50px;
+    cursor: pointer;
+}
+
+.slider .slider-item .item img {
+    max-width: 100%;
+    display: block;
+}
+.slider .slider-item .item {
+    display: none;
+}
+.slider .slider-item .item.active {
+    display: block;
+}
+.slider #sl {
+    position: relative;
+    top: 50px;
+}
+.slider #sd{
+    position: relative;
+    top: 50px;
+}
+@media only screen and (max-width: 600px){
+    /* .slider{
+        position: relative;
+        float: none;
+        left: 20;
+        top:20;
+    } */
+}

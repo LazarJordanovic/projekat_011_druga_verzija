@@ -1,0 +1,91 @@
+.info {
+    width: 98%;
+    min-height: 100%;
+    padding: 30px;
+    margin: 60px auto;
+    /* border: 5px solid gray; */
+    margin-bottom: 100px;
+    position:relative;
+}
+.prslike{
+    width: 90%;
+    height: 500px;
+    float: left;
+    margin-left: 150px;
+    
+}
+.prslike img{
+    width: 80%;
+    height: 300px;
+    margin: 5% auto;
+}
+.infoauto{
+    width: 40%;
+    height: 500px;
+    float: left;
+    margin-top: -500px;
+    /* border: 2px solid green; */
+}
+.infoauto table{
+    width: 90%;
+    margin: 50px auto;
+    font-size: 25px;
+    /* margin-top: -500px; */
+}
+.infoauto table tr td {
+    border-bottom: 2px solid black;
+}
+.dodatneinfo {
+    width: 100%;
+    /* border: 3px solid gray; */
+    margin:  100px auto;
+    /* margin-top: 100px; */
+    padding: 40px;
+}
+.dodatneinfo h3 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid gray;
+
+}
+.dodatneinfo p {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+}
+.kontaktinfo {
+    width: 100%;
+    border: 3px solid gray;
+    margin-bottom: 100px; 
+    padding: 40px;
+}
+.kontaktinfo table tr td {
+    width: 20%;
+    height: 150px;
+    text-align: center;
+    /* border-right: 4px solid rgb(49, 45, 37); */
+    border-bottom: 2px solid gray;
+    font-weight: bold;
+}
+.kontaktinfo table tr td img {
+    width: 70px;
+    height: 70px;
+}
+.prazno {
+    height: 400px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    .info {
+        width: 100%;
+    }
+    .prslike {
+        width: 80%;
+        margin: auto;
+    }
+    .infoauto{
+        width: 100%;
+        margin: 50px auto;
+    }
+}
