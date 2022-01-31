@@ -19,14 +19,14 @@ require_once("./delovi/nav.php");
       </div>
     </div>
     <div class="carousel-item">
-      <img src="./img/audiq5/audiq51.jpg" class="d-block w-100" alt="...">
+      <img src="./img/audi/audi1.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Audi Q5</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="./img/golf7/golf71.jpg" class="d-block w-100" alt="...">
+      <img src="./img/range/range1.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Volksvagen Golf VII</h5>
         <p>Some representative placeholder content for the third slide.</p>
